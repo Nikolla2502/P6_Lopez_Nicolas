@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const helmet = require('helmet');
 
+require('dotenv').config();
+
 const sauceRoute = require('./routes/sauceRoute');
 const userRoute = require('./routes/userRoute');
 
@@ -15,7 +17,7 @@ app.use((req, res, next) => {
     next();
 });
 
-mongoose.connect('mongodb+srv://nikolla2502:156029@cluster0.kuvdm.mongodb.net/P6Piiquante?retryWrites=true&w=majority',
+mongoose.connect(process.env.MONGO_URI,
     { useNewUrlParser: true, useUnifiedTopology: true }) 
     .then(() => console.log('Connexion à MongoDB réussie !')) 
     .catch(() => console.log('Connexion à MongoDB échouée !'));
@@ -30,8 +32,5 @@ app.use('/api/auth', userRoute);
 
 app.use(helmet());
 
-<<<<<<< HEAD
 module.exports = app;
-=======
-module.exports = app;
->>>>>>> d123e0971d8e949ed5727bc36acb74c6db158194
+
