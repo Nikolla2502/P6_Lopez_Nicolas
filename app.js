@@ -30,4 +30,8 @@ app.use('/api/auth', userRoute);
 
 app.use(helmet());
 
+<<<<<<< HEAD
 module.exports = app;
+=======
+module.exports = app;
+>>>>>>> d123e0971d8e949ed5727bc36acb74c6db158194
