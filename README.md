@@ -9,12 +9,12 @@ Après récuperation du frontend lancer le serveur frontend avec la commande <br
 <strong>"npm start"</strong><br>
 
  <h3>Backend</h3> 
- Après récuperation de ce repositorie<br>
+ Après récuperation de ce repositorie<br><br>
 
- <h4>Fichier ".env.dist" :</h4>
+ <strong>Fichier ".env.dist" :</strong><br>
  Ouvrir le fichier ".env.dist" inserer votre identifiant et mot de passe MongoDB<br>
  Modifier l'extension du fichier ".env.dist" par ".env"<br>
- La connexion à MongoDB sera alors possible
+ La connexion à MongoDB sera alors possible<br><br>
 
 Lancer le serveur backend avec la commande <br>
 <strong>"nodemon server"</strong><br>
