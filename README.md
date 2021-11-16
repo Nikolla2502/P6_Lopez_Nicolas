@@ -6,10 +6,7 @@ MongoDB pour la base de données</p>
 <h3>Frontend</h3>
 <a href="https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6">Repositorie Frontend</a><br>
 Après récuperation du frontend lancer le serveur frontend avec la commande <br>
-<span style="padding: 1px 5px 1px 5px;
-  background-color:  rgb(206, 201, 201);
-  text-decoration-line: none;
-  border: 1px solid grey;">npm start</span><br>
+<strong>"npm start"</strong><br>
 
  <h3>Backend</h3> 
  Après récuperation de ce repositorie<br>
@@ -20,7 +17,4 @@ Après récuperation du frontend lancer le serveur frontend avec la commande <br
  La connexion à MongoDB sera alors possible
 
 Lancer le serveur backend avec la commande <br>
-<span style="padding: 1px 5px 1px 5px;
-  background-color:  rgb(206, 201, 201);
-  text-decoration-line: none;
-  border: 1px solid grey;">nodemon server</span><br>
+<strong>"nodemon server"</strong><br>
