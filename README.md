@@ -1,3 +1,4 @@
+<img src="images/piiquante_resize.png">
 <h2>Projet 6 du parcours "Developpeur Web" pour Openclassroom</h2>
 <p>L'objectif est le developpement du Backend du site Web "Piiquante".<br>
 Ce site permet aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent.</p>
